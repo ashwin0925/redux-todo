@@ -1,0 +1,11 @@
+.todoList {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.addTodo {
+}
+
+.li {
+  list-style-type: none;
+}
