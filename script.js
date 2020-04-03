@@ -21,6 +21,7 @@ state.subscribe(() => {
     li.classList.add("li")
 
     let btn = document.createElement("button")
+    btn.classList.add('btn')
     btn.innerHTML = "X"
 
     li.textContent = todo

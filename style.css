@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .todos {
@@ -16,4 +17,9 @@
 .li {
   list-style-type: none;
   margin-right: 20px;
+}
+
+.btn {
+  width: 70px;
+  height: 20px;
 }
