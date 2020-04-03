@@ -5,6 +5,12 @@
 
 .addTodo {
   display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.todos {
+  display: flex;
 }
 
 .li {
