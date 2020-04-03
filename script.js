@@ -1,4 +1,4 @@
-let button = document.querySelector(".btn")
+let button = document.querySelector(".add_btn")
 let input = document.querySelector(".addInput")
 let addTodo = document.querySelector(".addTodo")
 
