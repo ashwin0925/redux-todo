@@ -4,7 +4,7 @@
 }
 
 .addTodo {
-  color: black;
+  display: flex;
 }
 
 .li {
