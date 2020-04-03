@@ -17,15 +17,16 @@ let state = Redux.createStore(counter);
 state.subscribe(() => {
   addTodo.innerHTML = "";
   state.getState().forEach((todo) => {
-    let li = document.createElement("li")
-    li.classList.add("li")
+    let li = document.createElement("p")
+    li.classList.add("p")
 
     let btn = document.createElement("button")
     btn.classList.add('btn')
     btn.innerHTML = "X"
 
     li.textContent = todo
-    addTodo.append(li, btn)
+    li.append(btn)
+    addTodo.append(li)
     input.value = '';
   })
 })

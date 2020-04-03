@@ -3,23 +3,19 @@
   margin-top: 120px;
 }
 
-.addTodo {
+.todos {
   display: flex;
-  justify-content: center;
-  text-align: center;
   flex-direction: column;
 }
 
-.todos {
-  display: flex;
+.addTodo {
+  text-align: center;
 }
 
-.li {
+.p {
   list-style-type: none;
-  margin-right: 20px;
 }
 
 .btn {
-  width: 70px;
-  height: 20px;
+  margin-left: 20px;
 }
